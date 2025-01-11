@@ -25,11 +25,10 @@ const lightTheme = createTheme({
   palette: {
     mode: 'light',
     primary: {
-      // main: '#EF8EC3',
-      main: '#014122',
+      main: '#5d2c5e',
     },
     secondary: {
-      main: '#f4cd2a',
+      main: '#ffffe3',
     },
     success: {
       main: '#43a047',
@@ -49,7 +48,7 @@ const lightTheme = createTheme({
     cancel: '#9e9e9e',
     unfreeze: '#ba68c8',
     // navbar: '#EF8EC3',
-    navbar: '#014122',
+    navbar: '#5D2C5E',
   },
   components: {
     MuiButton: {
@@ -120,11 +119,10 @@ const darkTheme = createTheme({
   palette: {
     mode: 'dark',
     primary: {
-      // main: '#EF8EC3',
-      main: '#014122',
+      main: '#5d2c5e',
     },
     secondary: {
-      main: '#f4cd2a',
+      main: '#ffffe3',
     },
     success: {
       main: '#09e312',
@@ -147,7 +145,7 @@ const darkTheme = createTheme({
     cancel: '#9e9e9e',
     unfreeze: '#ba68c8',
     // navbar: '#e36bac',
-    navbar: '#014122',
+    navbar: '#5D2C5E',
   },
   components: {
     MuiButton: {

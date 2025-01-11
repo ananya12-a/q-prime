@@ -24,6 +24,6 @@ export default function GoogleLogin() {
   });
 
   return (
-    <Button color="secondary" variant="contained" sx={{mx: 2}} onClick={() => login()}>Log In</Button>
+    <Button color="secondary" variant="contained" sx={{mx: 2, color: 'black'}} onClick={() => login()}>Log In</Button>
   );
 }

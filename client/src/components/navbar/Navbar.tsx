@@ -100,8 +100,8 @@ export default function Navbar(props) {
     HomeService.unfreezeQueue();
   };
 
-  const unfreezeButton = <Button color="secondary" variant="contained" sx={{mx: 2}} onClick={unfreezeQueue}>Unfreeze</Button>;
-  const freezeButton = <Button color="secondary" variant="contained" sx={{mx: 2}} onClick={freezeQueue}>Freeze</Button>;
+  const unfreezeButton = <Button color="secondary" variant="contained" sx={{mx: 2, color: 'black'}} onClick={unfreezeQueue}>Unfreeze</Button>;
+  const freezeButton = <Button color="secondary" variant="contained" sx={{mx: 2, color: 'black'}} onClick={freezeQueue}>Freeze</Button>;
 
   if (isMobileView) {
     return (
